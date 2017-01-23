@@ -1,5 +1,5 @@
 'use strict';
-
+justgageCtrl.$inject = ['$scope', '$filter'];
 angular.module('frapontillo.gage.controllers', [])
   .controller('justgageCtrl', function ($scope, $filter) {
     var self = this;
